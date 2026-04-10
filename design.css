@@ -53,6 +53,12 @@ body {
   min-height: 100vh;
 }
 
+.hero-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
 @media (min-width: 1024px) {
   .layout {
     grid-template-columns: 380px 1fr;
